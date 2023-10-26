@@ -10,30 +10,30 @@ const SideBar = () => {
         <div className="fixed left-3 sm:left-6 top-[100px]">
             <ChartBarIcon
                 width={40} 
-                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300"/>
+                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 cursor-pointer hover:bg-gray-700"/>
             <DocumentMagnifyingGlassIcon 
                 width={40} 
-                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300" />
+                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 cursor-pointer hover:bg-gray-700" />
             <EnvelopeIcon 
                 width={40} 
-                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300"/>
+                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 cursor-pointer hover:bg-gray-700"/>
             <CreditCardIcon 
                 width={40} 
-                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300" />
+                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 cursor-pointer hover:bg-gray-700" />
             <BellIcon 
                 width={40} 
-                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300"/>
+                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 cursor-pointer hover:bg-gray-700"/>
         </div>
         <div className="fixed bottom-4 left-3 sm:left-6">
             <a href="#top">
                 <ArrowUpIcon 
                     width={40} 
-                    className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300" />
+                    className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 cursor-pointer hover:bg-gray-700" />
             </a>
             
             <ArrowTopRightOnSquareIcon 
                 width={40} 
-                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300" />
+                className="bg-gray-600 p-2 rounded-lg mb-4 text-gray-300 cursor-pointer hover:bg-gray-700" />
         </div>
     </div>
   )

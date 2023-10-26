@@ -3,7 +3,9 @@ import NavBar from "./components/NavBar"
 import LeftColumn from "./components/LeftColumn"
 import RightColumn from "./components/RightColumn"
 
+
 function App() {
+ 
   
   return (
     <main className="flex">
