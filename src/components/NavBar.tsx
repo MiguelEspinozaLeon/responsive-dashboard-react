@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { TextInput } from '@tremor/react'
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 
