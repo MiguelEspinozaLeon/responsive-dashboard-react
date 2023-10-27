@@ -1,7 +1,14 @@
+import SalesComponent from "./SalesComponent"
+import ScoreList from "./ScoreList"
+import WebAnalytics from "./WebAnalytics"
 
 const RightColumn = () => {
   return (
-    <div>RightColumn</div>
+    <div className="w-full p-2">
+      <SalesComponent />
+      <WebAnalytics />
+      <ScoreList />
+    </div>
   )
 }
 

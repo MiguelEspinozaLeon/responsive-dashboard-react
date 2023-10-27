@@ -46,7 +46,7 @@ const LeftColumn = () => {
           <Flex justifyContent="between" alignItems="center">
             <Text>Sales</Text>
             <BadgeDelta deltaType="moderateIncrease" isIncreasePositive={true} size="xs">
-              +12.3%
+               +12.3%
             </BadgeDelta>
           </Flex>
           <Metric>$ 23,456</Metric>
@@ -69,15 +69,7 @@ const LeftColumn = () => {
           </Flex>
           <Metric>$ 23,456</Metric>
         </Card>
-        <Card className="w-sm">
-          <Flex justifyContent="between" alignItems="center">
-            <Text>Sales</Text>
-            <BadgeDelta deltaType="moderateIncrease" isIncreasePositive={true} size="xs">
-              +12.3%
-            </BadgeDelta>
-          </Flex>
-          <Metric>$ 23,456</Metric>
-        </Card>
+        
             
         </div>
         <div className="flex-auto w-full">
